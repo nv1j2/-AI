@@ -1,1 +1,16 @@
-readme
+这是我大学期间初学java的一个小Demo
+是一个拼图游戏,并自带AI
+可以处理任意行列数的拼图游戏
+
+12    final int rows = 4;//行数  
+13    final int cols = 4;//列数
+ 
+此小程序所需要的图片资源请自行定义
+22    backGroundImage = ImageIO.read(new File("background.jpg"));
+48    nullIcon = new ImageIcon("null.jpg");//将最后一个按钮背景为空白图
+
+
+操作 :
+上,下,左,右
+A:执行AI,自动完成拼图(无动画效果)
+R:初始化随即拼图
